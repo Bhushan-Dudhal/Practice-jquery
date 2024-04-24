@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  height: 400px;
+  width: 20%;
+  border: 2px solid black;
+  margin-top: 100px;
+}
+
+.container .main {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container .main input {
+  font-size: 20px;
+
+  height: 30px;
+}
+
+.container .main button {
+  padding: 10px 25px;
+  font-size: 15px;
+  background-color: aqua;
+  border-radius: 5px;
+  margin: 10px;
+}
